@@ -43,11 +43,11 @@ il ticket viene salvato e compare in lista senza ricaricare la pagina.
 
 ## Piano Di Verifica Manuale (Manual Test Plan)
 
-- [verifica manuale 1: azione + risultato atteso]
-- [verifica manuale 2: azione + risultato atteso]
+- Verifica 1: Compilare title e description e cliccare "Invia" → il ticket appare in lista e i campi del form si svuotano.
+- Verifica 2: Lasciare title vuoto e cliccare "Invia" → il form non viene inviato e appare un messaggio di errore sul campo mancante.
 
 ## Note Per L06
 
-- [quale payload andra' chiarito]
-- [quale errore andra' chiarito]
-- [quale campo dati andra' deciso]
+- Quale payload esatto aspetta il backend (title, description, altri campi?).
+- Come gestire errori di rete (timeout, 500) — mostrare messaggio o ignorare?
+- Lunghezza minima/massima di title: da decidere prima di scrivere la validazione.
